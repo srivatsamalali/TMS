@@ -1,0 +1,9 @@
+server.port=8942
+spring.datasource.driverClassName=com.mysql.cj.jdbc.Driver
+spring.datasource.url=jdbc:mysql://localhost:3306/TMS
+spring.datasource.username=root
+spring.datasource.password=skul
+
+spring.jpa.database-platform=org.hibernate.dialect.MySQL5Dialect
+spring.jpa.show-sql=true
+spring.jpa.hibernate.ddl-auto=update

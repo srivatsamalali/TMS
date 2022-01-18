@@ -1,0 +1,10 @@
+package com.project5.entity;
+
+public class student {
+	private String id;
+	private String firstname;
+	private String lastname;
+	private String email;
+	
+
+}

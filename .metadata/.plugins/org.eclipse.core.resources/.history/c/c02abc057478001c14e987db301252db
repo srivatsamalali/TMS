@@ -1,0 +1,12 @@
+package com.ticket.booking;
+
+import javax.persistence.Entity;
+import javax.persistence.Id;
+
+@Entity
+public class ticket {
+	@Id
+	private int ticket_number;
+	
+
+}

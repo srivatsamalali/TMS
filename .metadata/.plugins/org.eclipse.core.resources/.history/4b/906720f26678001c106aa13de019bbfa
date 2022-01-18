@@ -1,0 +1,5 @@
+package com.project5.service;
+
+public interface studentService {
+
+}

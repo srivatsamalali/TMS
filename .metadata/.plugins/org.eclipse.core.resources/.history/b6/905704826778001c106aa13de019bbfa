@@ -1,0 +1,28 @@
+package com.project5.service.impl;
+
+import java.util.List;
+
+import org.springframework.stereotype.Service;
+
+import com.project5.entity.student;
+import com.project5.repo.studentRepo;
+import com.project5.service.studentService;
+
+@Service
+public class studentServiceIMPL implements studentService{
+
+	private studentRepo sRepo;
+	
+	public studentServiceIMPL(studentRepo sRepo) {
+		super();
+		this.sRepo = sRepo;
+	}
+
+
+	@Override
+	public List<student> getAllStudents() {
+		return sRepo.findAll();
+	}
+	
+	
+}

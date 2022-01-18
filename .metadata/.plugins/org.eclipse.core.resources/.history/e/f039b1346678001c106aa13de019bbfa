@@ -1,0 +1,5 @@
+package com.project5.repo;
+
+public interface studentRepo {
+
+}

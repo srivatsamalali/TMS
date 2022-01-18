@@ -1,0 +1,24 @@
+package com.project5.controller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.GetMapping;
+
+import com.project5.service.studentService;
+
+@Controller
+public class studentController {
+
+	private studentService srService;
+
+	public studentController(studentService srService) {
+		super();
+		this.srService = srService;
+	}
+	
+	@GetMapping("/students")
+	public String listStudents(Model model) {
+		model.addAttribute("students", srService);
+	}
+	
+}

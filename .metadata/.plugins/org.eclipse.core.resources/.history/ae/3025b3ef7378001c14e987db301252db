@@ -1,0 +1,10 @@
+package com.ticket.booking;
+
+import javax.persistence.Entity;
+
+@Entity
+public class ticket {
+	
+	
+
+}

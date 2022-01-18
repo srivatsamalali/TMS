@@ -1,0 +1,17 @@
+package com.project5.service.impl;
+
+import java.util.List;
+
+import com.project5.entity.student;
+import com.project5.service.studentService;
+
+public class studentServiceIMPL implements studentService{
+
+	@Override
+	public List<student> getAllStudents() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	
+	
+}

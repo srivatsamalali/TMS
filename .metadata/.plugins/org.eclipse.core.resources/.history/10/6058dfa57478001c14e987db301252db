@@ -1,0 +1,28 @@
+package com.ticket.booking;
+
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+
+@Entity
+public class ticket {
+	@Id
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	private int ticket_number;
+	private String movie_name;
+	private String date;
+	
+	public ticket() {
+	}
+
+	public ticket(int ticket_number, String movie_name, String date) {
+		super();
+		this.ticket_number = ticket_number;
+		this.movie_name = movie_name;
+		this.date = date;
+	}
+	
+	
+
+}
